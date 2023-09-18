@@ -10,6 +10,6 @@ int main(int argc, char **argv)
 	printf("lengt = %d\n", strlen(name)); /* debug line */
 	name[strlen(name) - 1] = '\0'; /* removes the newline at the end */
 	
-	printf("Hello %s!\n", name);
+	printf("Hello, %s!\n", name);
 	return 0;
 }
